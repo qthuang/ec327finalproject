@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How much calories you intake for the last meal?"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/text_notice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="(How much you intake is how much your virtual pet intake!)"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <Button
+        android:id="@+id/confirm_feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm!"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="397dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="420dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/input_feed"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:hint="You intake: "
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="389dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

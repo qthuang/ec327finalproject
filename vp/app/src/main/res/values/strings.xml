@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">vp</string>
+    <string name="hint_height">Please input your height (m)</string>
+    <string name="hint_weight">Please input your weight (kg)</string>
+    <string name="Edit">Physical Parameters</string>
+    <string name="back">Confirm!</string>
+</resources>
